@@ -29,7 +29,6 @@ To run back translation, please use
 ```
 python back_tanslation.py   --gpu gpu_number \
                             --data_path path_for_data
-
 ``` 
 
 or
