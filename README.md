@@ -1,6 +1,10 @@
 # PyTorch implementation of SMDA: Semi-Supervised Models via Data Augmentationfor Classifying Interactive Affective Responses
 
-This is a PyTorch implementation of our paper "Semi-Supervised Models via Data Augmentationfor Classifying Interactive Affective Responses" for AAAI shared task: CL-Aff Shared Task - Get it #OffMyChest. Currently, we have provided the core code for SMDA and  preprocessed train/dev/test data. If there is any questions, feel free to contact us.
+This is a PyTorch implementation of our paper "Semi-Supervised Models via Data Augmentationfor Classifying Interactive Affective Responses" for AAAI shared task: CL-Aff Shared Task - Get it #OffMyChest. 
+
+If you would like to use our codes, please cite the above paper.
+
+Currently, we have provided the core code for SMDA and  preprocessed train/dev/test data. If there is any questions, feel free to contact us.
 
 ## Requirements
 
