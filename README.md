@@ -83,7 +83,9 @@ python predict.py   --batch_size 512 \
                     --no_class 0 \
                     --model_path path_for_trained_model
 ```
+
 or
+
 ```
 bash predict.sh
 ```
