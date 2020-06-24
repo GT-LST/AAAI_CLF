@@ -10,7 +10,7 @@ logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser(description='AAAI CLF')
 parser.add_argument('--gpu', default='6', type=str,
                     help='id(s) for CUDA_VISIBLE_DEVICES')
-parser.add_argument('--data-path', type=str, default='./processed_data/',
+parser.add_argument('--data_path', type=str, default='./processed_data/',
                     help='path to data folders')
 
 args = parser.parse_args()
