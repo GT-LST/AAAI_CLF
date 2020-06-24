@@ -7,7 +7,7 @@ python train.py --epochs 20 \
                 --lrlast 1e-3 \
                 --gpu 0,1,2,3 \
                 --output_dir ../output_models/ \
-                --data-path ../processed_data/ \
+                --data_path ../processed_data/ \
                 --tsa \
                 --uda \
                 --weight_decay 0.0 \
