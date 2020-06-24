@@ -38,7 +38,7 @@ parser.add_argument('--output_dir', default="test_model", type=str,
 #                     help="Model type selected in the list: " + ", ".join(MODEL_CLASSES.keys()))
 # parser.add_argument("--model_name_or_path", default=None, type=str, required=True,
 #                     help="Path to pre-trained model or shortcut name selected in the list: " + ", ".join(ALL_MODELS))
-parser.add_argument('--data-path', type=str, default='./processed_data/',
+parser.add_argument('--data_path', type=str, default='./processed_data/',
                     help='path to data folders')
 
 parser.add_argument("--tsa", action='store_true',
