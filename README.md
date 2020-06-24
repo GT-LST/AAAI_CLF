@@ -31,10 +31,11 @@ python back_tanslation.py   --gpu gpu_number \
                             --data_path path_for_data
 
 ``` 
+
 or
+
 ```
 bash bt.sh
-
 ``` 
 
 We also provided our augmented unlabeled data via back translation.
@@ -63,7 +64,9 @@ python train.py --epochs 20 \
                 --T 1.0 \
                 --no_class 0 \
 ```
+
 or
+
 ```
 bash train.sh
 ```
