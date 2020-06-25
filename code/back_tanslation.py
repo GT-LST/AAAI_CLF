@@ -25,7 +25,7 @@ de2en = torch.hub.load('pytorch/fairseq', 'transformer.wmt19.de-en',  checkpoint
 
 #assert isinstance(en2de.models[0], fairseq.models.transformer.TransformerModel)
 
-data_path = './processed_data/'
+data_path = args.data_path
 
 with open(data_path + 'train_unlabeled_data.pkl', 'rb') as f:
     train_unlabeled_data = pickle.load(f)
